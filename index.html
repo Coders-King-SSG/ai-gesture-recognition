@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Gesture Recognition App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+</head>
+
+<body background="/Whitehat Jr. Projects/FrameMaker/bg.svg">
+    <center>
+        <h3 class="btn btn-success header">
+            AI Gesture Recognition App
+            <br>
+            <br>
+            <div class="note">
+                <span>
+                    Move your left and right wrists to change the size of the square, and move around the screen to make
+                    the
+                    square move around the canvas. Change the position of your wrists to change the colours.
+                </span>
+            </div>
+            <hr>
+            <span id="size" class="css1"></span>
+        </h3>
+        <br><br>
+        <div class="main">
+            <div id="video_div" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"></div>
+            <div id="canvas_div" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"></div>
+        </div>
+    </center>
+    <div class="footer col-lg-12">
+        &copy; Developed by Shourya Sagar.
+        <br>
+        Powered by ML5 and P5.js
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

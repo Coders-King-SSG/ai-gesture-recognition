@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}canvas {border: black 3px solid;border-radius: 15px;}
+video {
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 15px;
+}
+
+.header {
+    margin: 0px!important;
+    width: 100% !important;
+    cursor: default!important;
+}
+
+.note {
+    font-size: 15px!important;
+    color: white;
+    background-color: deeppink;
+    box-shadow: 8px 8px 18px pink;
+    padding: 5px 10px 5px 10px;
+    white-space: normal;
+    border-radius: 100px;
+    float: none;
+}
+
+.footer {
+    position: sticky!important;
+    bottom: 0!important;
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    background-color: #777;
+    color: #fff;
+    height:60px!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
